@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('pull scm') {
             steps {
-                git credentialsId: 'github', url: 'git@github.com:sathishbob/jenkins_test.git'
+                git credentialsId: 'github', url: 'git@github.com:Jai5533/jenkins_test.git'
             }
         }
         
